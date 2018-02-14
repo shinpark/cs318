@@ -1,0 +1,10 @@
+body{
+    background-color: pink;
+    font-family: 'Nanum Gothic Coding', monospace;
+}
+h3{
+    font-family: 'Anton', sans-serif;
+    font-size: 24pt;
+    color: red;
+    text-shadow: 2px 2px blue
+}

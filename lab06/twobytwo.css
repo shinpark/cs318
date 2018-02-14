@@ -1,0 +1,17 @@
+.square{
+    width: 100px;
+    height: 100px;
+    background-color: orange;
+    display: inline-block;
+}
+.one{
+    width: 100px;
+    height: 100px;
+    background-color: orange;
+
+}
+#highlighted{
+    border-width: 5px;
+    border-style: solid;
+    border-color: black;
+}
