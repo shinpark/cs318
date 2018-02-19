@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+  }
+  body {
+      background-color: lightblue;
+  }
+.stamp{
+    border-style: dashed;
+    border-color: lightgreen;
+    display: inline-block;
+    width:300px;
+    height:300px;
+    margin: 10px;
+    filter: drop-shadow(8px 10px 2px grey);
+}
+#SouthKorea{
+    background-image: url("skf.gif"), url("sk.jpg") ;
+    background-position:right top, center;
+    background-size: 150px, auto;
+    background-repeat: no-repeat, repeat;
+}
+#Italy{
+    background-image: url("if.gif"), url("i.jpg");
+    background-position: right top, center;
+    background-size: 150px, auto 300px;
+    background-repeat: no-repeat, repeat;
+}
+#Russia{
+    background-image: url("rf.gif"), url("r.jpg");
+    background-position: right top, center;
+    background-size: 150px, auto 300px;
+    background-repeat: no-repeat, repeat;
+}
+#UnitedStatesofAmerica{
+    background-image: url("usaf.gif"), url("usa.jpg");
+    background-position: right top, center;
+    background-size: 150px, auto 300px;
+    background-repeat: no-repeat, repeat;
+}

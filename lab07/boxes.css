@@ -1,0 +1,41 @@
+body {
+    background-color: gray;
+  }
+  
+  .outerbox {
+    margin: 10px;
+    background-color: goldenrod;
+    display: inline-block;
+  }
+  
+  .innerbox {
+    display: inline-block;
+    background-image: linear-gradient(salmon, salmon), linear-gradient(#1E90FF, #1E90FF);
+    background-clip: content-box, padding-box;
+  }
+  p {
+      margin-bottom: 10px;
+  }
+  #box0 {
+      padding: 5px;
+      border-style: dashed;
+      margin: 5px;
+  }
+  #box1 {
+      padding:5px;
+      border-style: dashed;
+      margin: 0px;
+  }
+  #box2 {
+      width: 400px;
+    border-bottom-style: solid;
+    border-top-style: solid;
+    margin: 15px;
+
+    }
+    #box3 {
+    width: 70px;
+    height: 40px;
+    padding:25px;
+    margin: 10px 20px;
+}
