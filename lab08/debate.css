@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+}
+.blurb{
+    width: 90%;
+    box-shadow: 5px 10px;
+    font-family: "bellefair";
+    border-style: solid;
+    border: 1px;
+    min-height: 202px;
+    min-width: 400px;
+    margin-bottom: 20px;
+}
+.left{
+    background-color: grey;
+    margin-right: auto;
+    background-image: url(gandalfthegrey.jpg);
+    background-size: 200px;
+    background-repeat: no-repeat;
+    padding: 10px 20px 10px 210px;
+    border-radius: 0px 40px 40px 0px
+}
+.right{
+    background-color: salmon;
+    margin-left: auto;
+    background-image: url(georgewbush.jpg);
+    background-position: right;
+    background-size: 200px;
+    background-repeat: no-repeat;
+    padding: 10px 210px 20px 20px;
+    border-radius: 40px 0px 0px 40px
+}
+body{
+    margin: 0%;
+}
+.heading1{
+    text-align: center;
+    margin-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px 50px;
+    background-image: linear-gradient(to right, grey, salmon);
+    box-shadow: inset 10px -10px 15px white;
+}
+.best{
+    color: salmon;
+}
+.frenemies{
+    color: dimgrey;
+}
