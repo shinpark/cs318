@@ -1,0 +1,34 @@
+body{
+    background-color: bisque;
+}
+#panel{
+    position:fixed;
+    top:50px;
+    right:50px;
+    left:50px;
+    bottom:50px;
+    box-shadow: 0 0 5px 5px grey;
+}
+#picture{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.arrow{
+    position:fixed;
+    top:50%;
+    left: 5px;
+    right: 5px;
+    cursor: pointer;
+}
+#left{
+    position:fixed;
+    left:5px;
+    width: 40px;
+    
+}
+#right{
+    position:fixed;
+    right:5px;
+    width: 40px;
+}
