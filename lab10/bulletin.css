@@ -1,0 +1,67 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("cork.jpg");
+    background-repeat: repeat;
+}
+
+.photo {
+    display: inline-block;
+    position: relative;
+    margin-left: 100px;
+
+
+}
+.photo .pic {
+    border: 10px solid #fff;
+    border-bottom: 45px solid #fff;
+    box-shadow: 5px 5px 5px black;
+    width: 275px;
+    height: 300px;
+
+}
+.photo .pin {
+    position: absolute;
+    width: auto;
+    height: 50px;
+    left: 0;
+    right: 0;
+    top: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+@font-face {
+    font-family: marker;
+    src: url(permanentmarker.ttf);
+}
+.label {
+    position: absolute;
+    font-family: marker;
+    font-size: 40px;
+    left: 30%;
+    right: auto;
+    top: 245px;
+}
+#ducky {
+    top: 30px;
+    left: 25px;
+}
+#roar {
+    top:60px;
+    left: 70px;
+}
+#cute {
+    top:100px;
+    left: 10px;
+}
+#photo1{
+    transform: rotate(5deg);
+}
+#photo2{
+    transform: rotate(-10deg);
+}
+#photo3{
+    transform: rotate(24deg);
+}
