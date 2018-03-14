@@ -1,0 +1,74 @@
+#content {
+    background-color: beige;
+}
+body {
+    box-shadow: 0px 0px 5px grey;
+    margin-right: auto;
+    margin-left: auto;
+    width: 600px;
+}
+#heading{
+    text-align: center;
+    border-bottom: 5px;
+    border-style: solid;
+    background-color: bisque;
+}
+#pages a{
+    text-decoration: none;
+}
+#pages {
+    float: left;
+    background-color: lightyellow;
+    margin-left: 1px;
+    margin-bottom: 1px;
+    width: 80px;
+    height: 800px;
+}
+#dummy {
+    clear: both;
+}
+#main {
+    margin-left: 90px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#pizzahomeimage {
+    background-image: url("pepperoni.png");
+    float:left;
+    width: 400px;
+    height: 203px;
+    position: relative;
+    top:0;
+    right:0;
+    background-size: 400px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 10px 10px;
+    margin-bottom: 10px;
+    
+}
+footer{
+    margin-left: 90px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#order {
+    position: fixed;
+    top:0;
+    right:0;
+    background-image: url("pizza.png");
+    width: 100px;
+    height: 102px;
+    background-size: 100px;
+}
+#ordernow {
+    position: absolute;
+    font-size: 18pt;
+    color: white;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
