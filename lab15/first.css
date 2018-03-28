@@ -1,0 +1,117 @@
+*{
+    box-sizing: border-box;
+}
+#pic1{
+    float: left;
+    background-image: url("https://www.nps.gov/grca/planyourvisit/images/Yaki-5197.jpg?maxwidth=650&autorotate=false");
+    margin-right: 10px;
+    margin-bottom: 10px;
+    width: 400px;
+    position: relative;
+}
+#pic2{
+    background-image: url("https://thumbs-prod.si-cdn.com/nA72TLLeitGZA4HUTR5_qhV4-Os=/800x600/filters:no_upscale()/https://public-media.smithsonianmag.com/filer/3c/2a/3c2af135-c333-4262-a5d9-91d596494c1e/mars_surface.jpg");
+    float: right;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    width: 400px;
+    position: relative;
+}
+#pic3{
+    background-image:url("http://www.visitcalifornia.com/sites/default/files/styles/welcome_image/public/VC_Kidifornia_SupportingContent_MylesMcGuinness_SC-Redwoods9MQ_4891_1280x640_0.jpg");
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    width: 400px;
+    position: relative;
+}
+#pic4{
+    background-image: url("https://vacationspotindonesia.files.wordpress.com/2015/06/green-canyon-pangandaran-11.jpg");
+    float: right;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    width: 400px;
+    position: relative;
+}
+p {
+    font-size: 12;
+    padding-bottom: 20px;
+}
+body{
+    position: relative;
+}
+#text1{
+    position: absolute;
+    display: inline-block;
+    background-color: rgb(139,69,19);
+    width: 100px;
+    padding: 0;
+    font-size: 12pt;
+    top:13%;
+    z-index:9999;
+    left: 30%;
+    border-radius: 5px;
+    color: rgb(222,184,135);
+    padding: 5px;
+}
+#text2{
+    position: absolute;
+    display: inline-block;
+    background-color: rgb(139,69,19);
+    width: 100px;
+    padding: 0;
+    font-size: 12pt;
+    top:550px;
+    z-index:9999;
+    right: 20px;
+    border-radius: 5px;
+    color: rgb(222,184,135);
+    padding: 5px;
+}
+#text3{
+    position: absolute;
+    display: inline-block;
+    background-color: rgb(139,69,19);
+    width: 100px;
+    padding: 0;
+    font-size: 12pt;
+    top:1170px;
+    z-index:9999;
+    right: 20px;
+    border-radius: 5px;
+    color: rgb(222,184,135);
+    padding: 5px;
+}
+#text4{
+    position: absolute;
+    display: inline-block;
+    background-color: rgb(139,69,19);
+    width: 100px;
+    padding: 0;
+    font-size: 12pt;
+    top:1450px;
+    z-index:9999;
+    right: 20px;
+    border-radius: 5px;
+    color: rgb(222,184,135);
+    padding: 5px;
+}
+@media (max-width: 600px){
+    body{
+        width: 100%;
+        display:inline-block;
+    }
+    #pic1{
+        width: 100%;
+    }
+    #pic2{
+        width: 100%;
+    }
+    #pic3{
+        width: 100%;
+    }
+    #pic4{
+        width: 100%;
+    }
+
+}
