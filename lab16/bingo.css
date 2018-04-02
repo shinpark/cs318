@@ -1,0 +1,24 @@
+*{
+    box-sizing: border-box;
+}
+table{
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 14pt;
+}
+td{
+    border: 1px solid black;
+    border-spacing: 0px;
+    width: 5em;
+    height: 5em;
+    text-align: center;
+}
+#free{
+    background-color: lightblue;
+
+}
+td:hover{
+    background-color: yellow;
+
+}
