@@ -1,0 +1,105 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+    margin:0;
+}
+ul{
+    list-style-type: none;
+    margin:0;
+    padding:0;
+    background-color: navy;
+    color: white;
+    border-top: 1px solid white;
+}
+header > .menu{
+    display: none;
+}
+.menu{
+    padding: 10px 10px;
+    border-right: 1px solid white;
+    display: inline-block;
+    margin:0;
+    position: relative;
+}
+.menu:hover{
+    cursor: pointer;
+    background-color: rgb(119, 118, 118);
+}
+h1{
+    background-color: maroon;
+    color: white;
+    margin:0;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+table{
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+th {
+    text-align: left;
+}
+tr:nth-child(even){
+    background-color: lightgrey;
+}
+.menu > div{
+    position: absolute;
+    top: 100%;
+    left: 0%;
+    right: 0%;
+    box-shadow: 2px 2px 10px black;
+    width: 200px;
+    display: none;
+}
+.menu > div a{
+    text-decoration: none;
+    background-color: rgb(75, 74, 74);
+    color: white;
+    display: block;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid white;
+
+}
+.menu ul li:last-child a{
+    border-bottom: none;
+}
+.menu > div a:hover{
+    background-color: rgb(119, 118, 118);
+}
+.menu:hover > div{
+    display: block;
+}
+.menu .hampage{
+    display:none;
+    font-size:10pt;
+    right:0;
+    left: auto;
+}
+@media (max-width: 600px){
+    header > .menu{
+        position:absolute;
+        top: 0px;
+        right: 0px;
+        font-size: 25pt;
+        padding-top:3px;
+        background-color:  rgb(75, 74, 74);
+        height: 47px;
+        border-left: 1px solid white;
+        display: inline-block;
+        color: white;
+    }
+    nav{
+        display: none;
+    }
+    .hampage{
+        display: inline;
+    }
+}
