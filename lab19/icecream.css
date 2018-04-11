@@ -1,0 +1,33 @@
+*{
+    box-sizing: border-box;
+}
+#form1{
+    width: 600px;
+    background-color: lightblue;
+    margin-left: auto;
+    margin-right:auto;
+    border-radius: 10px;
+    height: 325px;
+}
+h1{
+    text-align: center;
+}
+.right{
+    width: 300px;
+    float: left;
+    margin-bottom: 10px;
+}
+.left{
+    width:150px;
+    float:left;
+    clear:left;
+    margin-left: 120px;
+    text-align: right;
+    margin-right: 10px;
+}
+#sprinkles1{
+    width:20px;
+}
+#orderbutton{
+    width: 50px;
+}

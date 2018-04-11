@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Icecream</title>
+    <link type="text/css" rel="stylesheet" href="icecream.css">
+</head>
+<body>
+    <form id="form1" action="https://formspree.io/parkshin@uwec.edu" method="post">
+        <h1>Chillax Order Form</h1>
+        <label id="who">
+            <span class="left" >Who Are you? </span>
+            <input type="text" name="who" class="right" id="who1">
+        </label>
+        <br>
+        <label id="what">
+            <span class="left">What flavor? </span>
+            <select class="right" name="flavor" size="4" multiple>
+                <option value="Chocolate">Chocolate</option>
+                <option value="Strawberry">Strawberry</option>
+                <option value="Vanilla">Vanilla</option>
+                <option value="MintChocolateChip">Mint Chocolate Chip</option>
+            </select>
+        </label>
+        <br>
+        <label id="whatwhat">
+            <span class="left">In What? </span>
+            <select class="right" name="cone" size="3" multiple>
+                <option value="Waffle">Waffle</option>
+                <option value="Sugar">Sugar</option>
+                <option value="Dish">Dish</option>
+            </select>
+        </label>
+        <br>
+        <label id="sprinkles">
+            <span class="left">Sprinkles? </span>
+            <input type="checkbox" name="sprinkles" class="right" id="sprinkles1">
+        </label>
+        <br>
+        <label id="how">
+            <span class="left">How Messy Are You? </span>
+            <input type="range" name="how" min="0" max="3" class="right" id="how1">
+        </label>
+        <br>
+        <span class="left">&nbsp;</span>
+        <input class="right" type="submit" value="order" id="orderbutton">
+    </form>
+</body>
+
+</html>
