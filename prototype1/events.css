@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+}
+#mainbody{
+    width:70%;
+    border-right: solid 2px;
+    border-left: solid 2px;
+    display: block;
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+}
+#conpic{
+    width: 100%;
+    display:inline;
+}
+#confwelcome{
+    text-align: center;
+    background-color: rgb(56, 165, 255);
+    padding: 25px;
+    margin-top:0;
+    margin-bottom: 0;
+    font-style: italic;
+    background-image: url("Images/ubfbanner.jpg");
+}
+@media (max-width: 600px){
+    #mainbody{
+        width:100%;
+        display: block;
+        margin-bottom: 0;
+        margin-left: auto;
+        margin-right: auto;
+        padding-bottom: 20px;
+        height: auto;
+        border: none;
+    }
+}
