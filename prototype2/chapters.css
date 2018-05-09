@@ -1,17 +1,7 @@
 *{
     box-sizing: border-box;
 }
-#mainbody{
-    width:70%;
-    border-right: solid 2px;
-    border-left: solid 2px;
-    display: block;
-    margin-top: 0;
-    margin-left: auto;
-    margin-right: auto;
-    height: 100%;
-    padding: 10px 30px 30px 30px;
-}
+
 #chapters{
     margin-left:auto;
     margin-right: auto;

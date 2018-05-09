@@ -1,22 +1,11 @@
 *{
     box-sizing: border-box;
 }
-#mainbody{
-    width:70%;
-    border-right: solid 2px;
-    border-left: solid 2px;
-    border-color: black;
-    display: block;
-    margin-top: 0;
-    margin-left: auto;
-    margin-right: auto;
-    height: auto;
-}
 #unorderedpages{
     padding:0;
 }
 #conpic{
-    width:60%;
+    width:100%;
     margin-left: auto;
     margin-right: auto;
     display: block;
