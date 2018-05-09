@@ -9,13 +9,16 @@
     margin-top: 0;
     margin-left: auto;
     margin-right: auto;
-    height: 424px;
+    height: 100%;
     padding: 10px 30px 30px 30px;
 }
 #chapters{
     margin-left:auto;
     margin-right: auto;
 
+}
+#chaptertitle{
+    text-align: center;
 }
 th{
     border-spacing: 0px;
