@@ -1,7 +1,7 @@
 *{
     box-sizing: border-box;
 }
-#conpic{
+.conpic{
     width: 100%;
     display:block;
 }
